@@ -11,7 +11,7 @@ npm install youtube-to
 const fs = require('fs');
 const youto = require('youtube-to');
 
-youto('https://www.youtube.com/watch?v=goeOUTRy2es', fs.createWriteStream('me_at_the_zoo.flv'), 'flv');
+youto('https://www.youtube.com/watch?v=jNQXAC9IVRw', fs.createWriteStream('me_at_the_zoo.flv'), 'flv');
 ```
 
 # API
@@ -26,7 +26,7 @@ Downloads the specified `url` into the writable `stream` provided. Default for `
 const fs = require('fs');
 const youto = require('youtube-to');
 
-youto('https://www.youtube.com/watch?v=goeOUTRy2es', fs.createWriteStream('me_at_the_zoo.mp3'));
+youto('https://www.youtube.com/watch?v=jNQXAC9IVRw', fs.createWriteStream('me_at_the_zoo.mp3'));
 ```
 
 Converts the video to mp3 and saves it as `me_at_the_zoo.mp3`. Since the default format is 'mp3', you do not need to enter format.
