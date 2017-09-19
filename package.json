@@ -1,0 +1,22 @@
+{
+  "name": "youtube-to",
+  "version": "1.0.1",
+  "description": "Converts youtube links to audio/video formats.",
+  "keywords":[
+    "youtube",
+    "mp3",
+    "flv"
+  ],
+  "repository":"git://github.com/kivancguckiran/youtube-to.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kivancguckiran",
+  "license": "MIT",
+  "dependencies": {
+    "ffmpeg-binaries": "^3.2.2-3",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^0.17.1"
+  }
+}
