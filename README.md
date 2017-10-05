@@ -8,7 +8,6 @@ npm install youtube-to
 # Usage
 
 ```js
-const fs = require('fs');
 const youto = require('youtube-to');
 
 youto('https://www.youtube.com/watch?v=jNQXAC9IVRw')
