@@ -17,15 +17,15 @@ const usage = () => {
 }
 
 
-if (!process.argv[1] || process.argv[1] == '--h' || process.argv[1] == '-help') {
+if (!process.argv[2] || process.argv[2] == '--h' || process.argv[2] == '-help') {
 	usage();
 	process.exit();
 }
 
 
-const url = process.argv[1];
-const filename = process.argv[2];
-const format = process.argv[3];
+const url = process.argv[2];
+const filename = process.argv[3];
+const format = process.argv[4];
 
 let promise;
 
