@@ -1,5 +1,5 @@
 # youtube-to
-Converts youtube links to audio/video formats using ffmpeg and ytdl libraries. Downloads `ffmpeg` with npm install, no need to specify path.
+Converts youtube links to audio/video formats using ffmpeg and ytdl libraries. Downloads `ffmpeg` with npm install, no need to specify path. Returns a promise.
 
 ```
 npm install youtube-to
@@ -11,7 +11,9 @@ npm install youtube-to
 const fs = require('fs');
 const youto = require('youtube-to');
 
-youto('https://www.youtube.com/watch?v=jNQXAC9IVRw');
+youto('https://www.youtube.com/watch?v=jNQXAC9IVRw')
+    .then(() => console.log('Done!'))
+    .catch((err) => console.log(err));
 ```
 
 # API
