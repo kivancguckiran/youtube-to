@@ -19,11 +19,11 @@
   "license": "MIT",
   "dependencies": {
     "debug": "^3.1.0",
-    "ffmpeg-binaries": "^3.2.2-3",
+    "ffmpeg-static": "^2.6.0",
     "file-extension": "^3.1.2",
     "fluent-ffmpeg": "^2.1.2",
     "mkdirp": "^0.5.1",
     "sanitize-filename": "^1.6.1",
-    "ytdl-core": "^0.20.2"
+    "ytdl-core": "^0.20.4"
   }
 }
